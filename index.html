@@ -1,12 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home - Ferdiyansyah Pratama Putra</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        nav {
+            background: #333;
+            padding: 15px 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        nav a:hover {
+            color: #667eea;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .info {
+            background: #f9f9f9;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+        }
+
+        .info h3 {
+            margin-bottom: 10px;
+        }
+
+        .info p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
-    <p>kata-kata hari ini</p>
-    <img src="https://tse4.mm.bing.net/th/id/OIP.kZUHATrKr32Ww6Saz7caUwHaEK?pid=Api&P=0&h=180" alt="Gambar">
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="list.html">Projects</a>
+    <a href="form.html">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="hero">
+        <img src="ferdi.jpg" alt="profile" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;">
+        <h1>Selamat Datang di Portfolio Saya</h1>
+        <p>Ferdiyansyah Pratama Putra</p>
+        <p style="font-size: 16px; color: #999;">Mahasiswa Informatika</p>
+    </div>
+
+    <div class="info">
+        <h3>Data Pribadi</h3>
+        <p><strong>Nama:</strong> Ferdiyansyah Pratama Putra</p>
+        <p><strong>NIM:</strong> 241110117</p>
+        <p><strong>Program Studi:</strong> Informatika</p>
+    </div>
+
+    <div class="info">
+        <h3>Tentang Saya</h3>
+        <p>Saya adalah mahasiswa yang bersemangat dalam bidang pengembangan web dan teknologi informasi. Dengan pengetahuan di HTML, CSS, JavaScript, dan Python, saya siap menghadapi tantangan di industri.</p>
+        <p>Pengalaman saya mencakup pembuatan berbagai aplikasi sistem informasi dan website profesional.</p>
+    </div>
+
+</div>
+
 </body>
 </html>
